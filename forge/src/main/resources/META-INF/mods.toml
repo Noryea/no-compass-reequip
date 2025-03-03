@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = ""
+license = "CC0-1.0"
+
+[[mods]]
+modId = "nocompassreequip"
+version = "${version}"
+displayName = "No Compass Reequip"
+authors = "Noryea"
+description = '''
+Optimize item rendering by transforming item entities to 2D
+'''
+
+[[mixins]]
+config = "nocompassreequip.mixins.json"
+
+[[dependencies.nocompassreequip]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.nocompassreequip]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20,)"
+ordering = "NONE"
+side = "CLIENT"

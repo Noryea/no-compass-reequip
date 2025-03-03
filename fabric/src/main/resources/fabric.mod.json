@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "nocompassreequip",
+	"version": "${version}",
+	"name": "No Compass Reequip",
+	"description": "No Lodestone Compass Reequip Animation",
+	"authors": [
+		"Noryea"
+	],
+	"contact": {
+		"sources": "",
+		"issues": ""
+	},
+	"license": "CC0-1.0",
+	"environment": "client",
+	"mixins": [
+		"nocompassreequip.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": ">=1.20",
+		"java": ">=17"
+	}
+}

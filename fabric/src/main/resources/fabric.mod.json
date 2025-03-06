@@ -14,7 +14,7 @@
 	"license": "CC0-1.0",
 	"environment": "client",
 	"mixins": [
-		"nocompassreequip.mixins.json"
+      "nocompassreequip.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",

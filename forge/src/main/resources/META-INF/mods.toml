@@ -9,7 +9,7 @@ version = "${version}"
 displayName = "No Compass Reequip"
 authors = "Noryea"
 description = '''
-Optimize item rendering by transforming item entities to 2D
+Remove lodestone compass reequipping animation when it updates
 '''
 
 [[mixins]]
@@ -20,11 +20,9 @@ modId = "forge"
 mandatory = true
 versionRange = "[47,)"
 ordering = "NONE"
-side = "CLIENT"
 
 [[dependencies.nocompassreequip]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.20,)"
 ordering = "NONE"
-side = "CLIENT"

@@ -1,4 +1,4 @@
-package cn.noryea.fastitems;
+package cn.noryea.nocompassreequip;
 
 import net.minecraftforge.fml.common.Mod;
 
